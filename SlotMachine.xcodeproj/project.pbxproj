@@ -13,6 +13,9 @@
 		221B60311A1799EA0092C3EA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 221B60301A1799EA0092C3EA /* Images.xcassets */; };
 		221B60341A1799EA0092C3EA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 221B60321A1799EA0092C3EA /* LaunchScreen.xib */; };
 		221B60401A1799EB0092C3EA /* SlotMachineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 221B603F1A1799EB0092C3EA /* SlotMachineTests.swift */; };
+		2283B9931A2EE5D2004CA6E6 /* SlotBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2283B9921A2EE5D2004CA6E6 /* SlotBrain.swift */; };
+		22CDD60A1A20834E005F2496 /* Slot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22CDD6091A20834E005F2496 /* Slot.swift */; };
+		22CDD60C1A208594005F2496 /* Factory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22CDD60B1A208594005F2496 /* Factory.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,9 @@
 		221B60391A1799EB0092C3EA /* SlotMachineTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SlotMachineTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		221B603E1A1799EB0092C3EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		221B603F1A1799EB0092C3EA /* SlotMachineTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlotMachineTests.swift; sourceTree = "<group>"; };
+		2283B9921A2EE5D2004CA6E6 /* SlotBrain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlotBrain.swift; sourceTree = "<group>"; };
+		22CDD6091A20834E005F2496 /* Slot.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Slot.swift; path = ../Slot.swift; sourceTree = "<group>"; };
+		22CDD60B1A208594005F2496 /* Factory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Factory.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +85,9 @@
 			children = (
 				221B60291A1799EA0092C3EA /* AppDelegate.swift */,
 				221B602B1A1799EA0092C3EA /* ViewController.swift */,
+				22CDD60B1A208594005F2496 /* Factory.swift */,
+				2283B9921A2EE5D2004CA6E6 /* SlotBrain.swift */,
+				22CDD6091A20834E005F2496 /* Slot.swift */,
 				221B602D1A1799EA0092C3EA /* Main.storyboard */,
 				221B60301A1799EA0092C3EA /* Images.xcassets */,
 				221B60321A1799EA0092C3EA /* LaunchScreen.xib */,
@@ -213,8 +222,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22CDD60C1A208594005F2496 /* Factory.swift in Sources */,
 				221B602C1A1799EA0092C3EA /* ViewController.swift in Sources */,
+				22CDD60A1A20834E005F2496 /* Slot.swift in Sources */,
 				221B602A1A1799EA0092C3EA /* AppDelegate.swift in Sources */,
+				2283B9931A2EE5D2004CA6E6 /* SlotBrain.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -410,6 +422,7 @@
 				221B60451A1799EB0092C3EA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		221B60461A1799EB0092C3EA /* Build configuration list for PBXNativeTarget "SlotMachineTests" */ = {
 			isa = XCConfigurationList;
@@ -418,6 +431,7 @@
 				221B60481A1799EB0092C3EA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
